@@ -235,6 +235,8 @@ a{
   
 }
 
+
+
 /* 
 .main-menu-wrap2 > .main-menu2 > .main-menu-image2 > .box-btn:nth-child(2){
   width: 300px;
@@ -340,16 +342,9 @@ a{
   box-shadow: 1px 1px 1px 1px #cccccc;
   border-radius:44px 44px 0 0;
   cursor: pointer;
+  
+  margin-bottom: 250px;
 }
-
-/* 
-.main-menu-wrap4 > .main-menu4 > .m-m::after{
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-} */
 
 .main-menu-wrap4 > .main-menu4 > .m-m:last-child{
   margin-right:0;
@@ -389,4 +384,126 @@ a{
 
 .main-menu-wrap4 > .main-menu4 > .m-m:hover > .plus > p{
   color: #343A71;
+}
+
+.main-menu-map{
+  width: 100%;
+  margin-bottom:-50px;
+}
+
+.main-menu-map > .main-map{
+  width: 100%;
+  height: 500px;
+}
+
+.map-btm{
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+  margin-bottom:180px;
+}
+
+.map-btm > .map-left{
+  width: 50%;
+  height: 120px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.map-btm > .map-left > p{
+  text-align: center;
+  line-height:120px;
+  color: #343A71;
+  font-size: 24px;
+}
+
+.map-btm > .map-right{
+  width: 50%;
+  height: 120px;
+  background-color: #343A71;
+  cursor: pointer;
+}
+
+
+.map-btm > .map-right > p{
+
+  font-size: 24px;
+  text-align: center;
+  line-height:120px;
+  color: white;
+}
+
+.footer-wrap{
+  width: 100%;
+}
+
+.footer-wrap > .footer{
+  width: 100%;
+  height: 260px;
+  background-color: #F9F9F9;
+  position: relative;
+}
+
+.footer-wrap > .footer > .footer-img{
+  width: 140px;
+  height: 40px;
+  left:40px;
+  top:80px;
+  position:absolute;
+}
+
+
+.footer-wrap > .footer > .footer-txt{
+  position: absolute;
+  top: 140px;
+  left:40px;
+  letter-spacing: -1px;
+  opacity: 60%;
+}
+
+.op{
+  opacity: 55%;
+}
+
+@media screen and (max-width : 1220px){
+  .main-menu-wrap3 > .main-menu3{
+    text-align: center;
+  }
+
+  .main-menu-wrap3 > .main-menu3 > .main-left{
+  margin-bottom: 120px;
+  width: 100%;
+  position: relative;
+}
+
+
+.main-menu-wrap3 > .main-menu3 > .main-left > .real-sp{
+  margin-bottom: 80px;
+}
+
+.main-menu-wrap3 > .main-menu3 > .main-left > .more-btn{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+  
+.main-menu-wrap3 > .main-menu3 > .main-right{
+  display: none;
+}
+
+  .main-menu-wrap2 > .main-menu2 > .main-menu-image2{
+     display: none;
+  }
+
+  .main-menu-wrap4 > .main-menu4 > .m-m{
+   width: 100%;
+   height: 200px;
+   margin-bottom: 200px;
+  }
+
+  
+.main-menu-wrap4 > .main-menu4 > .m-m > .plus{
+  margin-top: 200px;
+}
+
 }
